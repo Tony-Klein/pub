@@ -120,8 +120,16 @@ echo "This is a new project" > README.md
 echo "Creating a new requirements.txt"
 
 # Prompt for content of requirements.txt
-echo "Enter the content for requirements.txt:"
-read -r requirements_content
+echo "Enter the content for requirements.txt line by line (enter 'done' to finish):"
+
+requirements_content=""
+while true; do
+    read -r line
+    if [[ $line == "done" ]]; then
+        break
+    fi
+    requirements_content+="$line"$'\n'
+done
 
 # Create requirements.txt file with user-defined content
 echo "$requirements_content" > ~/Git/"$newproject"/requirements.txt
