@@ -138,14 +138,15 @@ echo "$requirements_content" > ~/Git/"$newproject"/requirements.txt
 read -rp "> requirements.txt < successfully created. Do you want to continue? (Y/n) " confirmation
 
 ## Create Virtual Environment
-python3 -m venv .venv
+python3 -m venv ~/Git/"$newproject"/.venv
 
-read -rp "Virtual Environment successfully created. Do you want to continue? (Y/n) " confirmation
+echo "Virtual Environment successfully created."
+read -rp "End of Script. Do you want to activate Virtual Environment now? (Y/n) " confirmation
 
-## Activate Virtual Environment
-source .venv/bin/activate
-
-read -rp "Virtual Environment successfully activated. Do you want to continue? (Y/n) " confirmation
-
-## Install all necessary pip packages within requirements.txt
-#pip install -r requirements.txt
+# Activate Virtual Environment and execute subsequent commands within it
+(
+    bash ~/Git/"$newproject"/.venv/bin/activate
+    
+    ## Install all necessary pip packages within requirements.txt
+    pip install -r requirements.txt
+)
