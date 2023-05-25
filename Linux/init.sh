@@ -18,7 +18,8 @@ if ! command -v curl &> /dev/null; then
 fi
 
 # Zielverzeichnis für den Download
-zielverzeichnis="$HOME/Schreibtisch"
+#zielverzeichnis="$HOME/Schreibtisch"
+zielverzeichnis="$HOME/$(xdg-user-dir DESKTOP)"
 
 # URL des Skripts
 skript_url="https://raw.githubusercontent.com/Tony-Klein/pub/main/Linux/setup.sh"
@@ -30,16 +31,5 @@ skript_dateiname="setup.sh"
 echo "Herunterladen des Skripts..."
 curl -o "$zielverzeichnis/$skript_dateiname" "$skript_url"
 
-# Überprüfen, ob der Download erfolgreich war
-if [ $? -eq 0 ]; then
-    echo "Der Download des Skripts war erfolgreich."
-
-    # Ausführbare Berechtigungen für das Skript setzen
-    chmod +x "$zielverzeichnis/$skript_dateiname"
-
-    # Ausführen des Skripts
-    echo "Ausführen des Skripts..."
-    "$zielverzeichnis/$skript_dateiname"
-else
-    echo "Der Download des Skripts ist fehlgeschlagen."
-fi
+# Ausführen von setup.sh
+bash $zielverzeichnis/setup.sh
