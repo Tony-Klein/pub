@@ -50,7 +50,7 @@ read -p "Enter your name for GitHub: " username
 # Prompt for user email in GitHub
 read -p "Enter your email for GitHub: " email
 
-read -p "Enter your personal access token for GitHub: " persacctoken
+read -s -p "Enter your personal access token for GitHub: " persacctoken
 
 # Set git config with the entered values
 git config --global user.name "$username"
@@ -117,14 +117,16 @@ echo "This is a new project" > README.md
 
 
 # Example: Create a requirements.txt file
-echo "Creating a new requirements.txt" > requirements.txt
+echo "Creating a new requirements.txt"
 
 # Prompt for content of requirements.txt
 echo "Enter the content for requirements.txt:"
 read -r requirements_content
 
-sleep 1
+# Create requirements.txt file with user-defined content
+echo "$requirements_content" > ~/Git/"$newproject"/requirements.txt
 
+# Display confirmation message
 read -rp "> requirements.txt < successfully created. Do you want to continue? (Y/n) " confirmation
 
 ## Create Virtual Environment
