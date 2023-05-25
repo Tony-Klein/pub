@@ -105,11 +105,9 @@ read -rp "VS Code successfully installed. Do you want to continue? (Y/n) " confi
 read -p "Enter your project name: " newproject
 
 # Create project directory
-cd ~
-mkdir Git
-cd Git
-mkdir "$newproject"
-cd "$newproject"
+mkdir -p ~/Git/"$newproject"
+
+read -rp "~/Git/$newproject successfully created. Do you want to continue? (Y/n) " confirmation
 
 # Perform actions within the project directory
 # Add any additional commands or instructions here
@@ -119,25 +117,25 @@ echo "This is a new project" > README.md
 
 
 # Example: Create a requirements.txt file
-echo "This is a new project" > requirements.txt
+echo "Creating a new requirements.txt" > requirements.txt
 
-# Example: Print the current working directory
-pwd
-
-# Example: List the files in the directory
-ls -la
+# Prompt for content of requirements.txt
+echo "Enter the content for requirements.txt:"
+read -r requirements_content
 
 sleep 1
+
+read -rp "> requirements.txt < successfully created. Do you want to continue? (Y/n) " confirmation
 
 ## Create Virtual Environment
 python3 -m venv .venv
 
-sleep 1
+read -rp "Virtual Environment successfully created. Do you want to continue? (Y/n) " confirmation
 
 ## Activate Virtual Environment
 source .venv/bin/activate
 
-sleep 2
+read -rp "Virtual Environment successfully activated. Do you want to continue? (Y/n) " confirmation
 
 ## Install all necessary pip packages within requirements.txt
-pip install -r requirements.txt
+#pip install -r requirements.txt
