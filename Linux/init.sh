@@ -21,7 +21,7 @@ fi
 zielverzeichnis="$HOME/Schreibtisch"
 
 # URL des Skripts
-skript_url="https://github.com/Tony-Klein/pub/blob/main/setup.sh"
+skript_url="https://raw.githubusercontent.com/Tony-Klein/pub/main/Linux/setup.sh"
 
 # Dateiname des heruntergeladenen Skripts
 skript_dateiname="setup.sh"
