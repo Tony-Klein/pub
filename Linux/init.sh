@@ -32,4 +32,4 @@ echo "Herunterladen des Skripts..."
 curl -o "$zielverzeichnis/$skript_dateiname" "$skript_url"
 
 # Ausführen von setup.sh
-bash $zielverzeichnis/setup.sh
+bash "$zielverzeichnis/setup.sh"
