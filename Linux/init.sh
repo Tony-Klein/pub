@@ -47,4 +47,4 @@ curl -o "$zielverzeichnis/$skript_dateiname" "$skript_url"
 echo "Herunterladen des Skripts abgeschlossen."
 
 # Ausführen von setup.sh
-#bash "$zielverzeichnis/setup.sh"
+bash "$zielverzeichnis/setup.sh"
