@@ -17,13 +17,17 @@ read -rp "Starting Installation of curl. Do you want to continue? (Y/n) " confir
 if ! command -v curl &> /dev/null; then
     echo "curl is not installed. Installing curl..."
     sudo apt install -y curl
+else echo "Keine Installation von curl nötig."
+
 fi
 
-echo "Installation von curl abgeschlossen."
 
 # Zielverzeichnis für den Download
 #zielverzeichnis="$HOME/Schreibtisch"
-zielverzeichnis="$HOME/$(xdg-user-dir DESKTOP)"
+zielverzeichnis="$(xdg-user-dir DESKTOP)"
+echo "Zielverzeichnis: $zielverzeichnis"
+
+read -rp "Zielverzeichnis saved. Do you want to continue? (Y/n) " confirmation
 
 # URL des Skripts
 skript_url="https://raw.githubusercontent.com/Tony-Klein/pub/main/Linux/setup.sh"
@@ -31,11 +35,10 @@ skript_url="https://raw.githubusercontent.com/Tony-Klein/pub/main/Linux/setup.sh
 # Dateiname des heruntergeladenen Skripts
 skript_dateiname="setup.sh"
 
-echo "Url gesetzt auf $skript_url"
-echo "Datei gesetzt auf $skript_dateiname"
-echo "Curl Befehl gesetzt auf curl -o $zielverzeichnis/$skript_dateiname $skript_url"
+echo "Url: $skript_url"
+echo "Filename: $skript_dateiname"
 
-read -rp "Downloading > setup.sh <. Do you want to continue? (Y/n) " confirmation
+read -rp "Downloading > $skript_url <. Do you want to continue? (Y/n) " confirmation
 
 # Herunterladen des Skripts
 echo "Herunterladen des Skripts..."
