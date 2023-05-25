@@ -46,5 +46,7 @@ curl -o "$zielverzeichnis/$skript_dateiname" "$skript_url"
 
 echo "Herunterladen des Skripts abgeschlossen."
 
+read -rp "End of Script. Do you want to continue with > bash $zielverzeichnis/setup.sh <? (Y/n) " confirmation
+
 # Ausführen von setup.sh
 bash "$zielverzeichnis/setup.sh"
