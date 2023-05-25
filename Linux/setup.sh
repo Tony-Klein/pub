@@ -145,8 +145,8 @@ read -rp "End of Script. Do you want to activate Virtual Environment now? (Y/n) 
 
 # Activate Virtual Environment and execute subsequent commands within it
 (
-    source /home/tonyklein/Git/test/.venv/bin/activate
-    ~/Git/"$newproject"/.venv/bin/activate
+    home_verzeichnis="$(xdg-user-dir)"
+    source "$home_verzeichnis/Git/test/.venv/bin/activate"
     
     ## Install all necessary pip packages within requirements.txt
     pip install -r requirements.txt
