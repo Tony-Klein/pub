@@ -137,17 +137,25 @@ echo "$requirements_content" > ~/Git/"$newproject"/requirements.txt
 # Display confirmation message
 read -rp "> requirements.txt < successfully created. Do you want to continue? (Y/n) " confirmation
 
-## Create Virtual Environment
-python3 -m venv ~/Git/"$newproject"/.venv
-
-echo "Virtual Environment successfully created."
-read -rp "End of Script. Do you want to activate Virtual Environment now? (Y/n) " confirmation
+# Create Virtual Environment
+create_virtual_environment() {
+    python3 -m venv ~/Git/"$newproject"/.venv
+    echo "Virtual Environment successfully created."
+}
 
 # Activate Virtual Environment and execute subsequent commands within it
-(
-    home_verzeichnis="$(xdg-user-dir)"
-    source "$home_verzeichnis/Git/test/.venv/bin/activate"
-    
-    ## Install all necessary pip packages within requirements.txt
-    pip install -r requirements.txt
-)
+activate_virtual_environment() {
+    source ~/Git/"$newproject"/.venv/bin/activate
+    pip install -r ~/Git/"$newproject"/requirements.txt
+}
+
+read -rp "End of Script. Do you want to activate Virtual Environment now? (Y/n) " confirmation
+
+# Function to be executed after script finishes
+post_script_actions() {
+    create_virtual_environment
+    activate_virtual_environment
+}
+
+# Set up trap to execute post_script_actions when the script exits
+trap post_script_actions EXIT
