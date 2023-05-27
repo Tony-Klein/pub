@@ -1,0 +1,4 @@
+pulp
+numpy
+scipy
+jupyterlab
