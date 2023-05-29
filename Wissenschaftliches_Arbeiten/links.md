@@ -25,11 +25,6 @@
 - [VHB-JOURQUAL Tabellen zum Download](https://www.vhbonline.org/vhb4you/vhb-jourqual/vhb-jourqual-3/tabellen-zum-download)
 - [VHB-Jourqual 3 - Teilrating Wirtschaftsinformatik](https://www.vhbonline.org/fileadmin/user_upload/JQ3_WI.pdf)
 
-## Recherchetools:
-- [Chrome Extension: Unpaywall](https://chrome.google.com/webstore/detail/unpaywall/iplffkdpngmdjhlpjmppncnlhomiipha)
-- [Sci-Hub](https://sci-hub.hkvisa.net)
-- [Library Genesis](https://libgen.is)
-
 ## Universitätskataloge
   - [Universitätsbibliothek | Universität Tübingen](https://rds-tue.ibs-bw.de/opac/RDSIndex/Search?lookfor=&source=ub-homepage&lng=de)
   - [Universitätsbibliothek | Universität Mannheim](https://www.bib.uni-mannheim.de)
