@@ -23,7 +23,7 @@
 
 
 ## Quellenarbeit
-- unpaywall
-- z-library
-- sci-hub
-- libgen
+- [unpaywall - Chrome Extension](https://chrome.google.com/webstore/detail/unpaywall/iplffkdpngmdjhlpjmppncnlhomiipha)
+- [z-library - Wiki](https://en.wikipedia.org/wiki/Z-Library)
+- [sci-hub - Wiki](https://de.wikipedia.org/wiki/Sci-Hub)
+- [libgen - Wiki](https://de.wikipedia.org/wiki/Library_Genesis)
