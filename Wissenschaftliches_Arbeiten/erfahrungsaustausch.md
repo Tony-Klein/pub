@@ -27,3 +27,7 @@
 - [z-library - Wiki](https://en.wikipedia.org/wiki/Z-Library)
 - [sci-hub - Wiki](https://de.wikipedia.org/wiki/Sci-Hub)
 - [libgen - Wiki](https://de.wikipedia.org/wiki/Library_Genesis)
+
+## Zeitplanung
+- Urlaubs- und Krankheitszeiten berücksichtigen
+- insbesondere wenn die Hauptmethodik bei Umfragen / Interviews liegt und Abhängigkeiten zu anderen Personen (Befragten / Interviewten) bestehen 
