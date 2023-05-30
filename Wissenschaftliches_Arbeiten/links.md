@@ -36,6 +36,12 @@
 ## Öffentliche Internetkataloge:
   - [DigiBib](https://www.digibib.net/Digibib) -  öffentlicher Internet-Bibliothekskatalog 
 
+## Tools für Quellenarbeit
+- [unpaywall - Chrome Extension](https://chrome.google.com/webstore/detail/unpaywall/iplffkdpngmdjhlpjmppncnlhomiipha)
+- [z-library - Wiki](https://en.wikipedia.org/wiki/Z-Library)
+- [sci-hub - Wiki](https://de.wikipedia.org/wiki/Sci-Hub)
+- [libgen - Wiki](https://de.wikipedia.org/wiki/Library_Genesis)
+
 ## Recherchedatenbanken
   - [EBSCOhost](https://search.ebscohost.com/webauth/Login.aspx?authtype=ip%2Cuid%2Ccpid&custid=ns248195&lang=en)
   - [JSTOR](https://www.jstor.org)
