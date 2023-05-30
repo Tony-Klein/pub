@@ -19,3 +19,4 @@
 - Perspektive des Betreuers: "macht sich der Bearbeiter überhaupt Mühe beim Schreiben der Arbeit?" - wenn nicht, dann fällt auch eine gute Bewertung äußerst schwer
 - wichtig: angemessener Sprachstil (nicht zu kurz, lieber etwas länger; am wichtigsten ist jedoch, dass sich die Arbeit gut lesen lässt und der Leser die Informationen gut aufnehmen kann)
 - Grafiken selbst bauen, anstelle zu kopieren (einheitliches Farbschema, selbst nachbauen ggfs. mit Powerpoint, Farbschema des Unternehmens nutzen)
+- Literatur zu sauberem Schreibstil
