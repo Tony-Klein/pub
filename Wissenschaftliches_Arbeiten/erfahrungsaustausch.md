@@ -31,3 +31,6 @@
 ## Zeitplanung
 - Urlaubs- und Krankheitszeiten berücksichtigen
 - insbesondere wenn die Hauptmethodik bei Umfragen / Interviews liegt und Abhängigkeiten zu anderen Personen (Befragten / Interviewten) bestehen 
+
+## Programmcode in Word integrieren
+- https://stackoverflow.com/questions/387453/how-do-you-display-code-snippets-in-ms-word-preserving-format-and-syntax-highlig
