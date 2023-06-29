@@ -1,5 +1,11 @@
 # Normgliederung (Redaktionelle Ausarbeitung der Arbeit)
 
+- häufige Gliederungsfehler:
+  - zu langer Grundlagenteil
+  - unausgewogene Beschreibungstiefe
+  - zu flache Gliederungshierarchie
+  
+
 1. Einleitung
         
     - Hintergrund und Motivation
