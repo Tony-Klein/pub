@@ -115,7 +115,7 @@ Komponenten auswählen:
   Harvard Business Manager
 - Jahrgang
   26. Jg.
-- heftnummer
+- Heftnummer
   Nr. 8
 - Start- und Endeeite des Aufsatzes
   S. 16-35
@@ -123,18 +123,134 @@ Komponenten auswählen:
 Interpunktion (davor) festlegen:
 - Autor
   Drucker, Peter
-- Jahr
-  (2004)
-- Titel
-  Das Geheimnis effizienter Führung
-- Zeitschrift
-  Harvard Business Manager
-- Jahrgang
+- Jahr [Leerzeichen]
+   (2004)
+- Titel [Doppelpunkt][Leerzeichen]
+  : Das Geheimnis effizienter Führung
+- Zeitschrift [Doppelpunkt][Leerzeichen]
+  : Harvard Business Manager
+- Jahrgang [Komma][Leerzeichen]
   26. Jg.
-- heftnummer
+- heftnummer [Komma][Leerzeichen]
   Nr. 8
-- Start- und Endeeite des Aufsatzes
+- Start- und Endeeite des Aufsatzes [Komma][Leerzeichen]
   S. 16-35
+
+### Beitrag in Sammelwerk
+
+Syntax:
+
+[Familienname, Vorname(n) des Verfassers (Erscheinungsjahr)]: [Titel des Beitrages]. In:[Familienname, Vorname(n) des Verfassers (Hrsg.)]: [Titel des Sammelwerkes]. [evtl. Auflage], [Ort des Verlages],[Verlag],[Seitenangabe (von– bis)]
+
+Hinweis: Das Sammelwerk ist zusätzlich im Literaturverzeichnis anzugeben, entsprechend einer Quellenangabe für Bücher. Nach den Autoren wird der Zusatz „(Hrsg.)“ hinzugefügt.
+
+Beispiel:
+Turß, Michaela (2007): Computergestützte Diagnostik. In: John, Mechthild/Maier, Günter W. (Hrsg.): Eignungsdiagnostik in der Personalarbeit. Düsseldorf, Symposion Publishing-Verlag, S. 253–271
+
+John, Mechthild/Maier, Günter W. (Hrsg.) (2007): Eignungsdiagnostik in der Personalarbeit. Düsseldorf, Symposion Publishing-Verlag
+
+Komponenten auswählen:
+- Autor (des Beitrags)
+  Turß, Michaela
+- Jahr
+  (2007)
+- Titel (des Beitrags)
+  Computergestützte Diagnostik
+- Untertitel (des Beitrags)
+  
+- Autoren (des Sammelwerks)
+  John, Mechthild/Maier, Günter W. (Hrsg.)
+- Titel (des Sammelwerks)
+  Eignungsdiagnostik in der Personalarbeit
+- Untertitel (des Sammelwerks)
+
+- Auflagennummer ermittelt
+- Verlagsort
+  Düsseldorf
+- Verlag
+  Symposion Publishing-Verlag
+- Start- und Endeeite des Aufsatzes
+  S. 253–271
+
+Interpunktion (davor) festlegen:
+- Autor (des Beitrags)
+  Turß, Michaela
+- Jahr [Leerzeichen]
+  (2007)
+- Titel (des Beitrags) [Doppelpunkt][Leerzeichen]
+  Computergestützte Diagnostik
+- Untertitel (des Beitrags)
+  
+- Autoren (des Sammelwerks) [Punkt][Leerzeichen]
+  John, Mechthild/Maier, Günter W. (Hrsg.)
+- Titel (des Sammelwerks) [Doppelunkt][Leerzeichen]
+  Eignungsdiagnostik in der Personalarbeit
+- Untertitel (des Sammelwerks)
+  
+- Auflagennummer ermittelt [Punkt][Leerzeichen]
+- Verlagsort [Punkt][Leerzeichen]
+  Düsseldorf
+- Verlag [Komma][Leerzeichen]
+  Symposion Publishing-Verlag
+- Start- und Endeeite des Aufsatzes [Komma][Leerzeichen]
+  S. 253–271
+
+### Internetdokument
+
+Syntax:
+
+[Familienname, Vorname(n) des Verfassers oder Herausgebers (Erscheinungsjahr)]: [Titel des Beitrages].[Hinweis „Online im Internet“], [komplette URL mit Veröffentlichungsdatum (falls angegeben)], [Abfrage v. „Datum“]
+
+Hinweis: Quellen aus dem Internet sollten gespeichert werden (im pdf-Format, html-Format oder als Screenshot), so dass diese auch nach einer möglichen Löschung nachgewiesen werden können.
+
+Beispiel mit Person als Verfasser:
+Groh-Kontio, Carina (2014): Welche Marken die Deutschen mögen. Online im Internet, http://www.handelsblatt. com/unternehmen/management/marketing/nivea-vw-und-gerolsteiner-vorn-welche-marken-die-deutschen-moegen/10904230.html vom 11.11.2014, Abfrage v. 24.11.2014
+
+Beispiel mit Institution als Herausgeber:
+Roland Berger (Hrsg.) (2014): Reinventing Retail − die stationäre Antwort auf Online. Online im Internet, http://www.rolandberger.de/media/pdf/Roland_Berger_Reinventing_Retail_Die_stationaere_Antwort_auf_On- line_20141119.pdf von 19.11.2014, Abfrage v. 24.11.2014
+
+Komponenten auswählen:
+- Autor
+  Groh-Kontio, Carina
+- Jahr
+  (2014)
+- Titel
+  Welche Marken die Deutschen mögen
+- Hinweis
+  Online im Internet
+- URL
+  http://www.handelsblatt. com/unternehmen/management/marketing/nivea-vw-und-gerolsteiner-vorn-welche-marken-die-deutschen-moegen/10904230.html
+- Abfragedatum 
+  Abfrage vom <Datum>
+
+
+Interpunktion (davor) festlegen:
+- Autor
+  Groh-Kontio, Carina
+- Jahr [Leerzeichen]
+  (2014)
+- Titel [Doppelpunkt][Leerzeichen]
+  Welche Marken die Deutschen mögen
+- Hinweis [Punkt][Leerzeichen]
+  Online im Internet
+- URL [Komma][Leerzeichen]
+  http://www.handelsblatt. com/unternehmen/management/marketing/nivea-vw-und-gerolsteiner-vorn-welche-marken-die-deutschen-moegen/10904230.html
+- Abfragedatum [Komma][Leerzeichen]
+  Abfrage vom <Datum>
+
+### Fußnoten
+
+Syntax:
+[Nachname] [Jahr], [S. von–bis]
+
+Beispiel:
+Wöhe 2012, S. 81–83
+
+Syntax:
+[Nachname] [Jahr], [o. S.]
+
+Beispiel für die Zitierung einer Internetquelle:
+Groh-Kontio 2014, o. S.
 
 
 ## Quellen
