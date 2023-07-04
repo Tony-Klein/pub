@@ -1,5 +1,49 @@
 # Citavi
 
+## Config
+
+## Workflow
+
+### Quelle in Citavi einfügen 
+
+- automatisch per ISBN / DOI
+- manuell
+- am besten nur die folgenden Quellentypen nutzen:
+  - Internetdokument
+  - Zeitschriftenaufsatz
+  - Buch (Sammelband) - Beitrag in Sammelband
+  - Buch (Monographie) - dieser Quellentyp sollte verwendet werden, auch wenn der eigentliche Quellentyp ein anderer ist
+ 
+### Buch (Monographie)
+- Plichtfelder:
+  - Autor
+  - Titel
+  - (Untertitel)
+  - Jahr
+  - Verlagsort
+  - Verlag
+  - Auflage
+- alle weiteren Felder sind freiwillig und Zusatzangaben
+
+#### Autoren:
+- ein Autor: `Nachname (Zweiter Nachname), Vorname (Zweiter Vorname)`
+- mehrere Autoren: `Nachname, Vorname`; `Nachname, Vorname`
+- akademische Titel werden nicht genannt
+
+#### Titel und Untertitel:
+- Titel: Keine Besonderheiten
+- Untertitel: Mit Großbuchstaben beginnen, da vom Zitierstil abhängig ist welches Trennzeichen zwischen Titel und Untertitel eingefügt wird 
+
+#### Verlag:
+- keine Besonderheiten, am besten nur Eigenname
+
+#### Auflage:
+- nur nummerischen Wert eintragen: `2`
+
+
+
+## Quellen
+
 ### HNU-Bibliothek - Zitieren mit einem Klick: Citavi
 https://youtu.be/9GDYEGWooXE
 
