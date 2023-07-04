@@ -13,7 +13,35 @@
   - Zeitschriftenaufsatz
   - Buch (Sammelband) - Beitrag in Sammelband
   - Buch (Monographie) - dieser Quellentyp sollte verwendet werden, auch wenn der eigentliche Quellentyp ein anderer ist
+
+### Vorgaben an das Literaturverzeichnis
+
+Literaturverzeichnis:
+- alphabetische Sortierung nach Familiennamen der Verfasser bzw. Herausgeber
+- Literaturverzeichnisses nicht nach Quellenarten unterteilen (z.B. eine gesonderte Auflistung der Onlinequellen)
+- Werke desselben Verfassers/Herausgebers sind chronologisch nach Erscheinungsjahr aufzuführen
+- bei gleichem Erscheinungsjahr alphabetisch nach den Titeln ordnen
+- bei der Kurzzitierweise sind diese Werke mit „a, b, c“ etc. zu kennzeichnen [Beispiel: Vgl. Wöhe 2010a, S. 13; Wöhe 2010b, S. 27]
+- keine akademischen Titel
+
+Autoren:
+- Trennung mehrerer Autoren durch Schrägstriche
+- bis zu drei Autoren werden alle genannt
+- ab vier Autoren wird nur der erste Autor genannt, die restlichen Autoren werden durch den Zusatz „u. a.“ (und andere) oder „et al.“ (et alii/aliae) erfasst
+- ab 2. Auflage zwingend Auflagenzahl angeben
+- bei mehreren Verlagsorten nur den ersten mit dem Zusatz „u. a.“ angeben
+- „o. V.“ (ohne Verfasserangabe) falls kein Verfassername bekannt ist / ersatzweise Name der Institution angeben
+- Angabe des Verlagsorts ist Pflicht / wenig bekannte ausländische Verlagsorte werden mit dem Land in Klammern angegeben
+- Angabe des Verlagsnamen ist nicht Pflicht
+
+- Sonderüberschrift "Verzeichnis der Interviewprotokolle":
+  - Interviewprotokolle
+  - unternehmensinterne Materialien
+  - andere selbst erarbeitete Materialien
  
+
+
+
 ### Buch (Monographie)
 - Plichtfelder:
   - Autor
