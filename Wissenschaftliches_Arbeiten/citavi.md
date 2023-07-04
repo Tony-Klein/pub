@@ -309,3 +309,6 @@ https://youtu.be/8QjZeroykYU
 ### Citavi Manual 6
 - https://www1.citavi.com/sub/manual6/de/index.html
 - https://www1.citavi.com/sub/docs/de/citationexamples/Citavi_Style_Examples.pdf
+
+### CitaviTeam DE - Citavi 6 Word Add-in: Gruppiertes Literaturverzeichnis (3.2)
+https://youtu.be/qD7vwIQxF88
