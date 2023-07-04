@@ -40,6 +40,101 @@
 #### Auflage:
 - nur nummerischen Wert eintragen: `2`
 
+## Zitationsstil selbst entwickeln
+
+Quellentypen:
+- Buch (Monographie)
+- Buch (Sammelwerk)
+- Beitrag in Sammelwerk
+- Internetdokument
+- Zeitschriftenaufsatz
+- ggfs. Hochschulschrift
+
+### Buch (Monographie)
+
+Syntax:
+
+[Familienname, Vorname(n) des Verfassers (Erscheinungsjahr)]: [Gesamter Titel des zitierten Werkes]. [evtl. Auflage], [Ort des Verlages], [Verlag]
+
+Beispiel:
+
+Wöhe, Günter/Döring, Ulrich (2005): Einführung in die Allgemeine Betriebswirtschaftslehre. 22.Aufl., München, Vahlen-Verlag
+
+Hinweis: Bei Dissertationen ist nach dem Titel der Begriff „Dissertation“ und der Name der Universität einzufügen.
+
+Komponenten auswählen:
+- Autor
+  Wöhe, Günter/Döring, Ulrich
+- Jahr
+  (2005)
+- Titel
+  Einführung in die Allgemeine Betriebswirtschaftslehre
+- Untertitel
+  Test
+- Auflage
+  22.Aufl.
+- Verlagsort
+  München
+- Verlag
+  Vahlen-Verlag
+
+Interpunktion (davor) festlegen:
+- Autor [nichts]
+  Wöhe, Günter/Döring, Ulrich
+- Jahr [Leerzeichen]
+   (2005)
+- Titel [Doppelpunkt][Leerzeichen]
+  : Einführung in die Allgemeine Betriebswirtschaftslehre
+- Untertitel [Doppelpunkt][Leerzeichen]
+  . Test
+- Auflage [Punkt][Leerzeichen]
+  . 22.Aufl.
+- Verlagsort [Komma][Leerzeichen]
+  , München
+- Verlag [Komma][Leerzeichen]
+  , Vahlen-Verlag
+
+
+### Zeitschriftenaufsatz
+
+Syntax:
+
+[Familienname, Vorname(n) des Verfassers (Erscheinungsjahr)]: [Titel des Beitrages]. In: [Name der Zeitschrift], [Band oder Jahrgang], [Heft-Nummer (oder/und Monat)], [Seitenangabe (von–bis)]
+
+Beispiel:
+Drucker, Peter (2004): Das Geheimnis effizienter Führung. In: Harvard Business Manager, 26. Jg., Nr. 8, S. 16–35
+
+Komponenten auswählen:
+- Autor
+  Drucker, Peter
+- Jahr
+  (2004)
+- Titel
+  Das Geheimnis effizienter Führung
+- Zeitschrift
+  Harvard Business Manager
+- Jahrgang
+  26. Jg.
+- heftnummer
+  Nr. 8
+- Start- und Endeeite des Aufsatzes
+  S. 16-35
+
+Interpunktion (davor) festlegen:
+- Autor
+  Drucker, Peter
+- Jahr
+  (2004)
+- Titel
+  Das Geheimnis effizienter Führung
+- Zeitschrift
+  Harvard Business Manager
+- Jahrgang
+  26. Jg.
+- heftnummer
+  Nr. 8
+- Start- und Endeeite des Aufsatzes
+  S. 16-35
 
 
 ## Quellen
