@@ -5,6 +5,7 @@
 - [Stata](https://www.stata.com)
 - [R Studio](https://www.r-studio.com/de/)
 - [JASP](https://jasp-stats.org/) | Free & Open Source | [wiki](https://de.wikipedia.org/wiki/JASP) | [eBook](https://api.zotero.org/users/34283/publications/items/AR3UQ6UT/file/view) | [YouTube Einführung](https://www.youtube.com/channel/UCjH2MCEThnoyDXTS31vCwZQ)
+- [jamovi](https://www.jamovi.org)
 
 ## Plagiatsprüfungstools:
 - [Turnitin](https://www.turnitin.com/de)
